@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: hsl(0, 4%, 80%);
+    font-family: 'Inter', sans-serif;
+}
+
+/* Links */
+a {
+    font-weight: 600;
+}
+
+/* Container */
+.container {
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+
+/* Card */
+.card {
+    background-color: hsl(0, 0%, 12%);
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Profile Picture */
+.pro_pic {
+    max-width: 80px;
+    border-radius: 50%;
+}
+
+/* Headings and Links */
+.card_heading div, .social_link {
+    margin: 20px;
+}
+
+/* Name */
+.name {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Location */
+.location {
+    color: hsl(75, 94%, 57%);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+/* Social Links */
+.social_link {
+    padding: 10px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    font-weight: 700;
+}
