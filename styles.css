@@ -13,7 +13,9 @@
 a {
     font-weight: 600;
 }
-
+a:hover{
+    color: hsl(75, 94%, 57%)
+}
 /* Container */
 .container {
     background-color: hsl(0, 0%, 8%);
@@ -63,4 +65,9 @@ a {
     background-color: hsl(0, 0%, 20%);
     border-radius: 10px;
     font-weight: 700;
+}
+.social_link:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
 }
